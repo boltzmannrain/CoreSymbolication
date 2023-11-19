@@ -390,7 +390,7 @@ CSSymbolOwnerSetLoadTimestamp
 CSSymbolOwnerSetPath
 CSSymbolOwnerSetRelocationCount
  */
-CSSymbolOwnerSetTransientUserData(CSSymbolOwnerRef owner, uint32_t gen);
+int CSSymbolOwnerSetTransientUserData(CSSymbolOwnerRef owner, uint32_t gen);
  /*
 CSSymbolOwnerSetUnloadTimestamp
 */
